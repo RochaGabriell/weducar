@@ -1,0 +1,5 @@
+from .student_serializer import StudentSerializer
+from .history_serializer import HistorySerializer
+from .history_area_serializer import HistoryAreaSerializer
+from .student_status_serializer import StudentStatusSerializer
+from .student_classes_serializer import StudentClassesSerializer
