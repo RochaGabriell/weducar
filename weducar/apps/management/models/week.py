@@ -2,8 +2,12 @@ from django.db import models
 
 
 class Week(models.Model):
-    day_id = models.AutoField(primary_key=True, db_column='id_dia')
-    description = models.CharField(max_length=45, db_column='descricao')
+    day_id = models.AutoField(
+        primary_key=True, verbose_name='ID do Dia', db_column='id_dia'
+    )
+    description = models.CharField(
+        max_length=45, verbose_name='Descrição', db_column='descricao'
+    )
 
     class Meta:
         db_table = 'semana'

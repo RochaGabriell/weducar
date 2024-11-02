@@ -11,3 +11,7 @@ class StudentClassesViewSet(viewsets.ModelViewSet):
     serializer_class = StudentClassesSerializer
     permission_classes = [permissions.IsAuthenticated]
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+
+    def get_queryset(self):
+        student_id = self.kwargs.get('student_id')
+        return StudentClasses.objects.filter(student_enrollment__registration=student_id)

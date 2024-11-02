@@ -1,0 +1,3718 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-10-30T13:13:55.149Z",
+      "user": 1,
+      "content_type": 35,
+      "object_id": "1",
+      "object_repr": "Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-10-30T13:14:26.871Z",
+      "user": 1,
+      "content_type": 36,
+      "object_id": "1",
+      "object_repr": "CAPIT├âO GERV├üSIO OLIVEIRA - Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-10-30T13:14:40.658Z",
+      "user": 1,
+      "content_type": 36,
+      "object_id": "2",
+      "object_repr": "AN├ìSIO DE ABREU - Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-10-30T13:15:13.797Z",
+      "user": 1,
+      "content_type": 32,
+      "object_id": "1",
+      "object_repr": "UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI - CAPIT├âO GERV├üSIO OLIVEIRA - Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-10-30T13:16:03.083Z",
+      "user": 1,
+      "content_type": 32,
+      "object_id": "2",
+      "object_repr": "UNIDADE ESCOLAR L├ëLIA SILVA TRINDADE - AN├ìSIO DE ABREU - Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-10-30T13:20:27.671Z",
+      "user": 1,
+      "content_type": 27,
+      "object_id": "1",
+      "object_repr": "Gabriel Rocha Paes da Costa",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-10-30T13:20:29.342Z",
+      "user": 1,
+      "content_type": 41,
+      "object_id": "1",
+      "object_repr": "rochagabriell - Gabriel Rocha Paes da Costa",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-10-30T13:29:32.262Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "1",
+      "object_repr": "ContractType object (1)",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-10-30T13:30:40.842Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "AcademicYear object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-10-30T13:43:34.948Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "1",
+      "object_repr": "Gabriel Rocha Paes da Costa - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-10-30T13:44:29.978Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "2",
+      "object_repr": "Gabriel Rocha Paes da Costa - UNIDADE ESCOLAR L├ëLIA SILVA TRINDADE - AN├ìSIO DE ABREU",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-10-30T19:14:10.989Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "1",
+      "object_repr": "Gabriel Rocha Paes da Costa - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo de Usu\\u00e1rio\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-10-30T19:14:21.829Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "1",
+      "object_repr": "Gabriel Rocha Paes da Costa - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-10-30T19:14:42.371Z",
+      "user": 1,
+      "content_type": 32,
+      "object_id": "3",
+      "object_repr": "GABRIEL ROCHA PAES DA COSTA - CAPIT├âO GERV├üSIO OLIVEIRA - Piau├¡ - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-10-30T19:14:53.643Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "3",
+      "object_repr": "Gabriel Rocha Paes da Costa - GABRIEL ROCHA PAES DA COSTA - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-10-30T19:46:39.023Z",
+      "user": 1,
+      "content_type": 32,
+      "object_id": "3",
+      "object_repr": "UNIDADE ESCOLAR GABRIEL ROCHA PAES DA COSTA - CAPIT├âO GERV├üSIO OLIVEIRA - Piau├¡ - PI",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Nome ou Raz\\u00e3o Social\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-10-30T19:47:43.066Z",
+      "user": 1,
+      "content_type": 28,
+      "object_id": "1",
+      "object_repr": "Gabriel Rocha Paes da Costa - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Tipo de Usu\\u00e1rio\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.564Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "11",
+      "object_repr": "Falecido",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.565Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "10",
+      "object_repr": "Cursando",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.565Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "9",
+      "object_repr": "Transferido",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.565Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "8",
+      "object_repr": "Desistente",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.565Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "7",
+      "object_repr": "Inativo",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-10-31T11:53:15.565Z",
+      "user": 1,
+      "content_type": 26,
+      "object_id": "6",
+      "object_repr": "Ativo",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-10-31T11:54:09.050Z",
+      "user": 1,
+      "content_type": 37,
+      "object_id": "1",
+      "object_repr": "City object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-10-31T11:55:21.019Z",
+      "user": 1,
+      "content_type": 34,
+      "object_id": "1",
+      "object_repr": "Housing object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-10-31T11:55:52.367Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "123",
+      "object_repr": "Student object (123)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-10-31T11:56:28.310Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "124234124",
+      "object_repr": "Student object (124234124)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-10-31T11:57:05.750Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1242134",
+      "object_repr": "Student object (1242134)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-10-31T11:58:52.243Z",
+      "user": 1,
+      "content_type": 37,
+      "object_id": "2",
+      "object_repr": "CAPIT├âO GERV├üSIO OLIVEIRA - PI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-10-31T11:58:54.619Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1242134",
+      "object_repr": "1242134 - Willian - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Cidade\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-10-31T11:59:05.441Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "124234124",
+      "object_repr": "124234124 - Rocha Paes da Costa - CAPIT├âO GERV├üSIO OLIVEIRA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Cidade\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-10-31T11:59:10.473Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "123",
+      "object_repr": "123 - GABRIEL ROCHA PAES DA COSTA - AN├ìSIO DE ABREU",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Instancia\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-10-31T11:59:50.780Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1242121",
+      "object_repr": "1242121 - Paloma - AN├ìSIO DE ABREU",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-10-31T13:17:41.681Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "1",
+      "object_repr": "MATUTINO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-10-31T13:17:46.883Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "2",
+      "object_repr": "VESPERTINO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-10-31T13:17:52.354Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "3",
+      "object_repr": "NOTURNO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-10-31T13:17:57.264Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "4",
+      "object_repr": "INTEGRAL",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-10-31T13:18:02.069Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "5",
+      "object_repr": "MATUTINO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-10-31T13:18:09.747Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "6",
+      "object_repr": "VESPERTINO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-10-31T13:18:14.507Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "7",
+      "object_repr": "NOTURNO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-10-31T13:18:19.711Z",
+      "user": 1,
+      "content_type": 39,
+      "object_id": "8",
+      "object_repr": "INTEGRAL",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-10-31T13:23:42.817Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "CurricularMatrix object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-10-31T13:23:50.432Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "7┬║ ANO - EF",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-10-31T13:24:22.780Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "1",
+      "object_repr": "Room object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-10-31T13:24:26.587Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "2",
+      "object_repr": "Room object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-10-31T13:24:32.311Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "3",
+      "object_repr": "Room object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-10-31T13:25:28.474Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "4",
+      "object_repr": "SALA 01 - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-10-31T13:25:32.330Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "5",
+      "object_repr": "SALA 02 - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-10-31T13:25:35.812Z",
+      "user": 1,
+      "content_type": 30,
+      "object_id": "6",
+      "object_repr": "SALA 03 - UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-10-31T13:26:49.421Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "1",
+      "object_repr": "Teste",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-10-31T13:27:24.418Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "2",
+      "object_repr": "8┬║ ANO - EF",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-10-31T13:27:38.356Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "2",
+      "object_repr": "Teste",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-10-31T13:27:53.343Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Willian - 1242134 - Teste",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2024-10-31T13:50:36.597Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "2",
+      "object_repr": "8┬║ Ano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2024-10-31T13:50:42.069Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "1",
+      "object_repr": "7┬║ Ano",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2024-10-31T13:53:15.403Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Rocha Paes da Costa - 124234124 - 7┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2024-10-31T13:53:24.768Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Paloma - 1242121 - 8┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2024-10-31T13:53:29.530Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Rocha Paes da Costa - 124234124 - 7┬║ Ano",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2024-10-31T14:26:49.507Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "2023",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2024-10-31T14:26:57.162Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "3",
+      "object_repr": "7┬║ ANO - EF",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2024-10-31T14:28:07.863Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "3",
+      "object_repr": "7┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-10-31T14:28:10.981Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Paloma - 1242121 - 7┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2024-10-31T14:53:59.729Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "2022",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2024-10-31T14:54:09.886Z",
+      "user": 1,
+      "content_type": 19,
+      "object_id": "4",
+      "object_repr": "6┬║ ANO - EF - 2022",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-10-31T14:54:29.911Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "4",
+      "object_repr": "6┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-10-31T14:54:33.353Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "1242121 - Paloma - AN├ìSIO DE ABREU - 6┬║ Ano",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-11-01T11:20:38.238Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "4",
+      "object_repr": "├ÜNICA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-11-01T11:20:42.481Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "3",
+      "object_repr": "├ÜNICA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-11-01T11:20:46.460Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "2",
+      "object_repr": "├ÜNICA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-11-01T11:20:49.558Z",
+      "user": 1,
+      "content_type": 40,
+      "object_id": "1",
+      "object_repr": "├ÜNICA",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add blacklisted token",
+      "content_type": 6,
+      "codename": "add_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change blacklisted token",
+      "content_type": 6,
+      "codename": "change_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete blacklisted token",
+      "content_type": 6,
+      "codename": "delete_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view blacklisted token",
+      "content_type": 6,
+      "codename": "view_blacklistedtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add outstanding token",
+      "content_type": 7,
+      "codename": "add_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change outstanding token",
+      "content_type": 7,
+      "codename": "change_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete outstanding token",
+      "content_type": 7,
+      "codename": "delete_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view outstanding token",
+      "content_type": 7,
+      "codename": "view_outstandingtoken"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Situa├º├úo do Aluno",
+      "content_type": 8,
+      "codename": "add_studentstatus"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Situa├º├úo do Aluno",
+      "content_type": 8,
+      "codename": "change_studentstatus"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Situa├º├úo do Aluno",
+      "content_type": 8,
+      "codename": "delete_studentstatus"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Situa├º├úo do Aluno",
+      "content_type": 8,
+      "codename": "view_studentstatus"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Hist├│rico",
+      "content_type": 9,
+      "codename": "add_history"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Hist├│rico",
+      "content_type": 9,
+      "codename": "change_history"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Hist├│rico",
+      "content_type": 9,
+      "codename": "delete_history"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Hist├│rico",
+      "content_type": 9,
+      "codename": "view_history"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add ├ürea do Hist├│rico",
+      "content_type": 10,
+      "codename": "add_historyarea"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change ├ürea do Hist├│rico",
+      "content_type": 10,
+      "codename": "change_historyarea"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete ├ürea do Hist├│rico",
+      "content_type": 10,
+      "codename": "delete_historyarea"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view ├ürea do Hist├│rico",
+      "content_type": 10,
+      "codename": "view_historyarea"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Aluno",
+      "content_type": 11,
+      "codename": "add_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Aluno",
+      "content_type": 11,
+      "codename": "change_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Aluno",
+      "content_type": 11,
+      "codename": "delete_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Aluno",
+      "content_type": 11,
+      "codename": "view_student"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Turma do Aluno",
+      "content_type": 12,
+      "codename": "add_studentclasses"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Turma do Aluno",
+      "content_type": 12,
+      "codename": "change_studentclasses"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Turma do Aluno",
+      "content_type": 12,
+      "codename": "delete_studentclasses"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Turma do Aluno",
+      "content_type": 12,
+      "codename": "view_studentclasses"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Ano Letivo",
+      "content_type": 13,
+      "codename": "add_academicyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Ano Letivo",
+      "content_type": 13,
+      "codename": "change_academicyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Ano Letivo",
+      "content_type": 13,
+      "codename": "delete_academicyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Ano Letivo",
+      "content_type": 13,
+      "codename": "view_academicyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add Matriz Curricular",
+      "content_type": 14,
+      "codename": "add_curricularmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change Matriz Curricular",
+      "content_type": 14,
+      "codename": "change_curricularmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete Matriz Curricular",
+      "content_type": 14,
+      "codename": "delete_curricularmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view Matriz Curricular",
+      "content_type": 14,
+      "codename": "view_curricularmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add Di├írio",
+      "content_type": 15,
+      "codename": "add_diary"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change Di├írio",
+      "content_type": 15,
+      "codename": "change_diary"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete Di├írio",
+      "content_type": 15,
+      "codename": "delete_diary"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view Di├írio",
+      "content_type": 15,
+      "codename": "view_diary"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add Avalia├º├úo",
+      "content_type": 16,
+      "codename": "add_evaluation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change Avalia├º├úo",
+      "content_type": 16,
+      "codename": "change_evaluation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete Avalia├º├úo",
+      "content_type": 16,
+      "codename": "delete_evaluation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view Avalia├º├úo",
+      "content_type": 16,
+      "codename": "view_evaluation"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add Nota",
+      "content_type": 17,
+      "codename": "add_grade"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change Nota",
+      "content_type": 17,
+      "codename": "change_grade"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete Nota",
+      "content_type": 17,
+      "codename": "delete_grade"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view Nota",
+      "content_type": 17,
+      "codename": "view_grade"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add Conte├║do da Aula",
+      "content_type": 18,
+      "codename": "add_lessoncontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change Conte├║do da Aula",
+      "content_type": 18,
+      "codename": "change_lessoncontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete Conte├║do da Aula",
+      "content_type": 18,
+      "codename": "delete_lessoncontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view Conte├║do da Aula",
+      "content_type": 18,
+      "codename": "view_lessoncontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add Ano Escolar",
+      "content_type": 19,
+      "codename": "add_schoolyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change Ano Escolar",
+      "content_type": 19,
+      "codename": "change_schoolyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete Ano Escolar",
+      "content_type": 19,
+      "codename": "delete_schoolyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view Ano Escolar",
+      "content_type": 19,
+      "codename": "view_schoolyear"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add Componente Curricular",
+      "content_type": 20,
+      "codename": "add_curricularcomponent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change Componente Curricular",
+      "content_type": 20,
+      "codename": "change_curricularcomponent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete Componente Curricular",
+      "content_type": 20,
+      "codename": "delete_curricularcomponent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view Componente Curricular",
+      "content_type": 20,
+      "codename": "view_curricularcomponent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add Componente da Matriz Curricular",
+      "content_type": 21,
+      "codename": "add_curricularcomponentmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change Componente da Matriz Curricular",
+      "content_type": 21,
+      "codename": "change_curricularcomponentmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete Componente da Matriz Curricular",
+      "content_type": 21,
+      "codename": "delete_curricularcomponentmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view Componente da Matriz Curricular",
+      "content_type": 21,
+      "codename": "view_curricularcomponentmatrix"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add Frequ├¬ncia",
+      "content_type": 22,
+      "codename": "add_frequency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change Frequ├¬ncia",
+      "content_type": 22,
+      "codename": "change_frequency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete Frequ├¬ncia",
+      "content_type": 22,
+      "codename": "delete_frequency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view Frequ├¬ncia",
+      "content_type": 22,
+      "codename": "view_frequency"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add Falta Justificada",
+      "content_type": 23,
+      "codename": "add_justifiedabsence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change Falta Justificada",
+      "content_type": 23,
+      "codename": "change_justifiedabsence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete Falta Justificada",
+      "content_type": 23,
+      "codename": "delete_justifiedabsence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view Falta Justificada",
+      "content_type": 23,
+      "codename": "view_justifiedabsence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+      "name": "Can add Presen├ºa",
+      "content_type": 24,
+      "codename": "add_syspresence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+      "name": "Can change Presen├ºa",
+      "content_type": 24,
+      "codename": "change_syspresence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+      "name": "Can delete Presen├ºa",
+      "content_type": 24,
+      "codename": "delete_syspresence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+      "name": "Can view Presen├ºa",
+      "content_type": 24,
+      "codename": "view_syspresence"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 97,
+    "fields": {
+      "name": "Can add Hor├írio de aula",
+      "content_type": 25,
+      "codename": "add_classschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 98,
+    "fields": {
+      "name": "Can change Hor├írio de aula",
+      "content_type": 25,
+      "codename": "change_classschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 99,
+    "fields": {
+      "name": "Can delete Hor├írio de aula",
+      "content_type": 25,
+      "codename": "delete_classschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 100,
+    "fields": {
+      "name": "Can view Hor├írio de aula",
+      "content_type": 25,
+      "codename": "view_classschedule"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 101,
+    "fields": {
+      "name": "Can add Tipo de contrato",
+      "content_type": 26,
+      "codename": "add_contracttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 102,
+    "fields": {
+      "name": "Can change Tipo de contrato",
+      "content_type": 26,
+      "codename": "change_contracttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 103,
+    "fields": {
+      "name": "Can delete Tipo de contrato",
+      "content_type": 26,
+      "codename": "delete_contracttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 104,
+    "fields": {
+      "name": "Can view Tipo de contrato",
+      "content_type": 26,
+      "codename": "view_contracttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 105,
+    "fields": {
+      "name": "Can add Funcion├írio",
+      "content_type": 27,
+      "codename": "add_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 106,
+    "fields": {
+      "name": "Can change Funcion├írio",
+      "content_type": 27,
+      "codename": "change_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 107,
+    "fields": {
+      "name": "Can delete Funcion├írio",
+      "content_type": 27,
+      "codename": "delete_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 108,
+    "fields": {
+      "name": "Can view Funcion├írio",
+      "content_type": 27,
+      "codename": "view_employee"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 109,
+    "fields": {
+      "name": "Can add Funcion├írio alocado na escola",
+      "content_type": 28,
+      "codename": "add_employeeschool"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 110,
+    "fields": {
+      "name": "Can change Funcion├írio alocado na escola",
+      "content_type": 28,
+      "codename": "change_employeeschool"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 111,
+    "fields": {
+      "name": "Can delete Funcion├írio alocado na escola",
+      "content_type": 28,
+      "codename": "delete_employeeschool"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 112,
+    "fields": {
+      "name": "Can view Funcion├írio alocado na escola",
+      "content_type": 28,
+      "codename": "view_employeeschool"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 113,
+    "fields": {
+      "name": "Can add Cargo",
+      "content_type": 29,
+      "codename": "add_position"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 114,
+    "fields": {
+      "name": "Can change Cargo",
+      "content_type": 29,
+      "codename": "change_position"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 115,
+    "fields": {
+      "name": "Can delete Cargo",
+      "content_type": 29,
+      "codename": "delete_position"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 116,
+    "fields": {
+      "name": "Can view Cargo",
+      "content_type": 29,
+      "codename": "view_position"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 117,
+    "fields": {
+      "name": "Can add Sala",
+      "content_type": 30,
+      "codename": "add_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 118,
+    "fields": {
+      "name": "Can change Sala",
+      "content_type": 30,
+      "codename": "change_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 119,
+    "fields": {
+      "name": "Can delete Sala",
+      "content_type": 30,
+      "codename": "delete_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 120,
+    "fields": {
+      "name": "Can view Sala",
+      "content_type": 30,
+      "codename": "view_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 121,
+    "fields": {
+      "name": "Can add Grade de hor├írio",
+      "content_type": 31,
+      "codename": "add_schedulegrid"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 122,
+    "fields": {
+      "name": "Can change Grade de hor├írio",
+      "content_type": 31,
+      "codename": "change_schedulegrid"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 123,
+    "fields": {
+      "name": "Can delete Grade de hor├írio",
+      "content_type": 31,
+      "codename": "delete_schedulegrid"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 124,
+    "fields": {
+      "name": "Can view Grade de hor├írio",
+      "content_type": 31,
+      "codename": "view_schedulegrid"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 125,
+    "fields": {
+      "name": "Can add Escola",
+      "content_type": 32,
+      "codename": "add_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 126,
+    "fields": {
+      "name": "Can change Escola",
+      "content_type": 32,
+      "codename": "change_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 127,
+    "fields": {
+      "name": "Can delete Escola",
+      "content_type": 32,
+      "codename": "delete_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 128,
+    "fields": {
+      "name": "Can view Escola",
+      "content_type": 32,
+      "codename": "view_school"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 129,
+    "fields": {
+      "name": "Can add Escolaridade",
+      "content_type": 33,
+      "codename": "add_schooling"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 130,
+    "fields": {
+      "name": "Can change Escolaridade",
+      "content_type": 33,
+      "codename": "change_schooling"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 131,
+    "fields": {
+      "name": "Can delete Escolaridade",
+      "content_type": 33,
+      "codename": "delete_schooling"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 132,
+    "fields": {
+      "name": "Can view Escolaridade",
+      "content_type": 33,
+      "codename": "view_schooling"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 133,
+    "fields": {
+      "name": "Can add Moradia",
+      "content_type": 34,
+      "codename": "add_housing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 134,
+    "fields": {
+      "name": "Can change Moradia",
+      "content_type": 34,
+      "codename": "change_housing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 135,
+    "fields": {
+      "name": "Can delete Moradia",
+      "content_type": 34,
+      "codename": "delete_housing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 136,
+    "fields": {
+      "name": "Can view Moradia",
+      "content_type": 34,
+      "codename": "view_housing"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 137,
+    "fields": {
+      "name": "Can add Estado",
+      "content_type": 35,
+      "codename": "add_state"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 138,
+    "fields": {
+      "name": "Can change Estado",
+      "content_type": 35,
+      "codename": "change_state"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 139,
+    "fields": {
+      "name": "Can delete Estado",
+      "content_type": 35,
+      "codename": "delete_state"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 140,
+    "fields": {
+      "name": "Can view Estado",
+      "content_type": 35,
+      "codename": "view_state"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 141,
+    "fields": {
+      "name": "Can add Inst├óncia",
+      "content_type": 36,
+      "codename": "add_instance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 142,
+    "fields": {
+      "name": "Can change Inst├óncia",
+      "content_type": 36,
+      "codename": "change_instance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 143,
+    "fields": {
+      "name": "Can delete Inst├óncia",
+      "content_type": 36,
+      "codename": "delete_instance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 144,
+    "fields": {
+      "name": "Can view Inst├óncia",
+      "content_type": 36,
+      "codename": "view_instance"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 145,
+    "fields": {
+      "name": "Can add Cidade",
+      "content_type": 37,
+      "codename": "add_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 146,
+    "fields": {
+      "name": "Can change Cidade",
+      "content_type": 37,
+      "codename": "change_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 147,
+    "fields": {
+      "name": "Can delete Cidade",
+      "content_type": 37,
+      "codename": "delete_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 148,
+    "fields": {
+      "name": "Can view Cidade",
+      "content_type": 37,
+      "codename": "view_city"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 149,
+    "fields": {
+      "name": "Can add Dia da Semana",
+      "content_type": 38,
+      "codename": "add_week"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 150,
+    "fields": {
+      "name": "Can change Dia da Semana",
+      "content_type": 38,
+      "codename": "change_week"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 151,
+    "fields": {
+      "name": "Can delete Dia da Semana",
+      "content_type": 38,
+      "codename": "delete_week"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 152,
+    "fields": {
+      "name": "Can view Dia da Semana",
+      "content_type": 38,
+      "codename": "view_week"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 153,
+    "fields": {
+      "name": "Can add Turno",
+      "content_type": 39,
+      "codename": "add_shift"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 154,
+    "fields": {
+      "name": "Can change Turno",
+      "content_type": 39,
+      "codename": "change_shift"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 155,
+    "fields": {
+      "name": "Can delete Turno",
+      "content_type": 39,
+      "codename": "delete_shift"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 156,
+    "fields": {
+      "name": "Can view Turno",
+      "content_type": 39,
+      "codename": "view_shift"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 157,
+    "fields": {
+      "name": "Can add Turma",
+      "content_type": 40,
+      "codename": "add_classe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 158,
+    "fields": {
+      "name": "Can change Turma",
+      "content_type": 40,
+      "codename": "change_classe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 159,
+    "fields": {
+      "name": "Can delete Turma",
+      "content_type": 40,
+      "codename": "delete_classe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 160,
+    "fields": {
+      "name": "Can view Turma",
+      "content_type": 40,
+      "codename": "view_classe"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 161,
+    "fields": {
+      "name": "Can add Usu├írio",
+      "content_type": 41,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 162,
+    "fields": {
+      "name": "Can change Usu├írio",
+      "content_type": 41,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 163,
+    "fields": {
+      "name": "Can delete Usu├írio",
+      "content_type": 41,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 164,
+    "fields": {
+      "name": "Can view Usu├írio",
+      "content_type": 41,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "token_blacklist", "model": "blacklistedtoken" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "token_blacklist", "model": "outstandingtoken" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "students", "model": "studentstatus" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "students", "model": "history" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "students", "model": "historyarea" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "students", "model": "student" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": { "app_label": "students", "model": "studentclasses" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": { "app_label": "academics", "model": "academicyear" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": { "app_label": "academics", "model": "curricularmatrix" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": { "app_label": "academics", "model": "diary" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": { "app_label": "academics", "model": "evaluation" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": { "app_label": "academics", "model": "grade" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": { "app_label": "academics", "model": "lessoncontent" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": { "app_label": "academics", "model": "schoolyear" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": { "app_label": "academics", "model": "curricularcomponent" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": { "app_label": "academics", "model": "curricularcomponentmatrix" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": { "app_label": "attendance", "model": "frequency" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": { "app_label": "attendance", "model": "justifiedabsence" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": { "app_label": "attendance", "model": "syspresence" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 25,
+    "fields": { "app_label": "administration", "model": "classschedule" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 26,
+    "fields": { "app_label": "administration", "model": "contracttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 27,
+    "fields": { "app_label": "administration", "model": "employee" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 28,
+    "fields": { "app_label": "administration", "model": "employeeschool" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 29,
+    "fields": { "app_label": "administration", "model": "position" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 30,
+    "fields": { "app_label": "administration", "model": "room" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 31,
+    "fields": { "app_label": "administration", "model": "schedulegrid" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 32,
+    "fields": { "app_label": "administration", "model": "school" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 33,
+    "fields": { "app_label": "administration", "model": "schooling" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 34,
+    "fields": { "app_label": "locations", "model": "housing" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 35,
+    "fields": { "app_label": "locations", "model": "state" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 36,
+    "fields": { "app_label": "locations", "model": "instance" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 37,
+    "fields": { "app_label": "locations", "model": "city" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 38,
+    "fields": { "app_label": "management", "model": "week" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 39,
+    "fields": { "app_label": "management", "model": "shift" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 40,
+    "fields": { "app_label": "management", "model": "classe" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 41,
+    "fields": { "app_label": "accounts", "model": "user" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "f1t6l4gx8ww4mmbwqfbeo1htttzszg8p",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAYkTIu3XsGAsyMVA1NSrsy3l2bdKHb_977LxXTutS4dp7jSOqsrDr8bjmVB7cN0D2126TL1JZ5zHpT9E67vk7Ez8vu_h3U1Ou3PhXPyJSCRUDORgI7CSTGwVGErPM0uCziMHhTHDMDWMQMknCQAur9AQPaOLU:1t68W7:arRQMoOnftxSHI0aRH8YC-M2H_TGUfbyMKSb2CBjoiQ",
+      "expire_date": "2024-11-13T13:13:43.335Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "lquuechg130489h5kdk6zsw0dsssslsl",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hAYkTIu3XsGAsyMVA1NSrsy3l2bdKHb_977LxXTutS4dp7jSOqsrDr8bjmVB7cN0D2126TL1JZ5zHpT9E67vk7Ez8vu_h3U1Ou3PhXPyJSCRUDORgI7CSTGwVGErPM0uCziMHhTHDMDWMQMknCQAur9AQPaOLU:1t6E0t:Kso3fsqN8OA2a67ap4wE2_Pbmwx6ZPjXHMOH8QyefkI",
+      "expire_date": "2024-11-13T19:05:51.683Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "jti": "c5f70818884e443c9e2481dea82b8e7b",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMTUzMSwiaWF0IjoxNzMwMzE1MTMxLCJqdGkiOiJjNWY3MDgxODg4NGU0NDNjOWUyNDgxZGVhODJiOGU3YiIsInVzZXJfaWQiOjF9.ndK8pBP8yFw_slb9DvAUwmhPjw0o7dnDG5Qf1cbDSGc",
+      "created_at": "2024-10-30T19:05:31.872Z",
+      "expires_at": "2024-10-31T19:05:31Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "jti": "e189629a246f4ec5913375e27b19621a",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMTU5OSwiaWF0IjoxNzMwMzE1MTk5LCJqdGkiOiJlMTg5NjI5YTI0NmY0ZWM1OTEzMzc1ZTI3YjE5NjIxYSIsInVzZXJfaWQiOjF9.CaaS1IUMImHCin_ldlmKQc3MVWVO2nR79SpUCHvWY_k",
+      "created_at": "2024-10-30T19:06:39.677Z",
+      "expires_at": "2024-10-31T19:06:39Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 3,
+    "fields": {
+      "user": 1,
+      "jti": "4506eafd9fc743ce8245ab5907ed42de",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMTcxOSwiaWF0IjoxNzMwMzE1MzE5LCJqdGkiOiI0NTA2ZWFmZDlmYzc0M2NlODI0NWFiNTkwN2VkNDJkZSIsInVzZXJfaWQiOjF9.8fMt7dlsfJh43jIs8472urJVj8Erwn-WraSU8N2p4FQ",
+      "created_at": "2024-10-30T19:08:39.180Z",
+      "expires_at": "2024-10-31T19:08:39Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "jti": "8a4455951d3b4051970b96546cb64ddc",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMTc1MywiaWF0IjoxNzMwMzE1MzUzLCJqdGkiOiI4YTQ0NTU5NTFkM2I0MDUxOTcwYjk2NTQ2Y2I2NGRkYyIsInVzZXJfaWQiOjF9.hWjZAysWk4xDFRMZKjYQAxjH_S6569WdxnYPVWMMwRY",
+      "created_at": "2024-10-30T19:09:13.747Z",
+      "expires_at": "2024-10-31T19:09:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 5,
+    "fields": {
+      "user": 1,
+      "jti": "66ddf9d65b90453ea663368fdaa1638e",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMjAyMCwiaWF0IjoxNzMwMzE1NjIwLCJqdGkiOiI2NmRkZjlkNjViOTA0NTNlYTY2MzM2OGZkYWExNjM4ZSIsInVzZXJfaWQiOjF9.D8T-90tXzMk34bpx-RN3FYIsDCa6gTdhzi7lltyWqAY",
+      "created_at": "2024-10-30T19:13:40.006Z",
+      "expires_at": "2024-10-31T19:13:40Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 6,
+    "fields": {
+      "user": 1,
+      "jti": "9f5556553e3c4160a22a11a9f6fe98a8",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMjAzNiwiaWF0IjoxNzMwMzE1NjM2LCJqdGkiOiI5ZjU1NTY1NTNlM2M0MTYwYTIyYTExYTlmNmZlOThhOCIsInVzZXJfaWQiOjF9.DRZn6JUJoZHId7c3j91tQvjH28GfP7COcoRfhTUO1Zs",
+      "created_at": "2024-10-30T19:13:56.440Z",
+      "expires_at": "2024-10-31T19:13:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 7,
+    "fields": {
+      "user": 1,
+      "jti": "fd0f5f3b1d274faeb6e92270884b2967",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMjA1MywiaWF0IjoxNzMwMzE1NjUzLCJqdGkiOiJmZDBmNWYzYjFkMjc0ZmFlYjZlOTIyNzA4ODRiMjk2NyIsInVzZXJfaWQiOjF9._-gUbxxfYhMacm0bTLzTH_X8uA9ij95wg4IKkrv8tkg",
+      "created_at": "2024-10-30T19:14:13.429Z",
+      "expires_at": "2024-10-31T19:14:13Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 8,
+    "fields": {
+      "user": 1,
+      "jti": "60b94b44d2c8445dbd7b9c233c842534",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMjA5NiwiaWF0IjoxNzMwMzE1Njk2LCJqdGkiOiI2MGI5NGI0NGQyYzg0NDVkYmQ3YjljMjMzYzg0MjUzNCIsInVzZXJfaWQiOjF9.uWeM_dxsSz20NBFisGNT5b2jcm1zkOs2trdRNNUoL-U",
+      "created_at": "2024-10-30T19:14:56.946Z",
+      "expires_at": "2024-10-31T19:14:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 9,
+    "fields": {
+      "user": 1,
+      "jti": "e1e18af052ba4c89ac8b9e10cf011d92",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMjMwOSwiaWF0IjoxNzMwMzE1OTA5LCJqdGkiOiJlMWUxOGFmMDUyYmE0Yzg5YWM4YjllMTBjZjAxMWQ5MiIsInVzZXJfaWQiOjF9.3BZ1khy7kIl8EEmZKoQREppEnEmb1_fj61KtP8Ztyyk",
+      "created_at": "2024-10-30T19:18:29.831Z",
+      "expires_at": "2024-10-31T19:18:29Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 10,
+    "fields": {
+      "user": 1,
+      "jti": "3d550a3d752a4634a0174a10b04f514f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzQxMywiaWF0IjoxNzMwMzE3MDEzLCJqdGkiOiIzZDU1MGEzZDc1MmE0NjM0YTAxNzRhMTBiMDRmNTE0ZiIsInVzZXJfaWQiOjF9.9e-6Ad13VRLdrLasr4INazavQXJOjRfn9_FTLbLqod8",
+      "created_at": "2024-10-30T19:36:53.816Z",
+      "expires_at": "2024-10-31T19:36:53Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 11,
+    "fields": {
+      "user": 1,
+      "jti": "6f0b373c4d614fe6b0787d86964a12db",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzU4NSwiaWF0IjoxNzMwMzE3MTg1LCJqdGkiOiI2ZjBiMzczYzRkNjE0ZmU2YjA3ODdkODY5NjRhMTJkYiIsInVzZXJfaWQiOjF9.b5-5kvIX1FqVNT-_WpKg188AKdvvFK6Qo4l9hxaw-8o",
+      "created_at": "2024-10-30T19:39:45.290Z",
+      "expires_at": "2024-10-31T19:39:45Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 12,
+    "fields": {
+      "user": 1,
+      "jti": "b1f429ddfa044c89bdb5baa3e57d43a3",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzYwOSwiaWF0IjoxNzMwMzE3MjA5LCJqdGkiOiJiMWY0MjlkZGZhMDQ0Yzg5YmRiNWJhYTNlNTdkNDNhMyIsInVzZXJfaWQiOjF9.NkX5JQCsBEi52mEpvy2B8S2Q4yPnUFOVF3bWAdxezcs",
+      "created_at": "2024-10-30T19:40:09.056Z",
+      "expires_at": "2024-10-31T19:40:09Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 13,
+    "fields": {
+      "user": 1,
+      "jti": "c7e454da91924917b1bccc73dd299721",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzY3NywiaWF0IjoxNzMwMzE3Mjc3LCJqdGkiOiJjN2U0NTRkYTkxOTI0OTE3YjFiY2NjNzNkZDI5OTcyMSIsInVzZXJfaWQiOjF9.mV6sw5HM-YWHJRr_6aLK6JUPR29FDRQdKkmVYJLEEEY",
+      "created_at": "2024-10-30T19:41:17.523Z",
+      "expires_at": "2024-10-31T19:41:17Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 14,
+    "fields": {
+      "user": 1,
+      "jti": "0580493d373d4d3db9cb10c40e76acc5",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzcyMCwiaWF0IjoxNzMwMzE3MzIwLCJqdGkiOiIwNTgwNDkzZDM3M2Q0ZDNkYjljYjEwYzQwZTc2YWNjNSIsInVzZXJfaWQiOjF9.ZuwFaVleRg0SIw4fB1QSOkuU25mSVit8O-RFgisAy7s",
+      "created_at": "2024-10-30T19:42:00.226Z",
+      "expires_at": "2024-10-31T19:42:00Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 15,
+    "fields": {
+      "user": 1,
+      "jti": "83972765083c41ceaab0da789a2b05d4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzgwNywiaWF0IjoxNzMwMzE3NDA3LCJqdGkiOiI4Mzk3Mjc2NTA4M2M0MWNlYWFiMGRhNzg5YTJiMDVkNCIsInVzZXJfaWQiOjF9.U7T_GXZBUguKgY_W3rZSRYfG95uIAfQehzc4PhMTjSw",
+      "created_at": "2024-10-30T19:43:27.113Z",
+      "expires_at": "2024-10-31T19:43:27Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 16,
+    "fields": {
+      "user": 1,
+      "jti": "715c72abe95d4fac933c7a6f1990f04a",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzg4NSwiaWF0IjoxNzMwMzE3NDg1LCJqdGkiOiI3MTVjNzJhYmU5NWQ0ZmFjOTMzYzdhNmYxOTkwZjA0YSIsInVzZXJfaWQiOjF9.6z0MthM-ZSMB_8eUuSl5RyGiBicmR2ClMWN9a8GspbQ",
+      "created_at": "2024-10-30T19:44:45.651Z",
+      "expires_at": "2024-10-31T19:44:45Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 17,
+    "fields": {
+      "user": 1,
+      "jti": "7a56a22a1c844f508b2b8643910e8b52",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzk1NSwiaWF0IjoxNzMwMzE3NTU1LCJqdGkiOiI3YTU2YTIyYTFjODQ0ZjUwOGIyYjg2NDM5MTBlOGI1MiIsInVzZXJfaWQiOjF9.lr-gEnudrj3hfr4Ouour2vA1EiP21mEttfDyiJIPWLM",
+      "created_at": "2024-10-30T19:45:55.866Z",
+      "expires_at": "2024-10-31T19:45:55Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 18,
+    "fields": {
+      "user": 1,
+      "jti": "4bce3e0c42f74ebbbedff2c779224025",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzk1OSwiaWF0IjoxNzMwMzE3NTU5LCJqdGkiOiI0YmNlM2UwYzQyZjc0ZWJiYmVkZmYyYzc3OTIyNDAyNSIsInVzZXJfaWQiOjF9.fRtruNGEBOI70wBhxk9eGfjLdPjcDKzi9cVu0I5DMr0",
+      "created_at": "2024-10-30T19:45:59.877Z",
+      "expires_at": "2024-10-31T19:45:59Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 19,
+    "fields": {
+      "user": 1,
+      "jti": "cd2e7b44e57343198cc3b17a1e95115d",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwMzk2NywiaWF0IjoxNzMwMzE3NTY3LCJqdGkiOiJjZDJlN2I0NGU1NzM0MzE5OGNjM2IxN2ExZTk1MTE1ZCIsInVzZXJfaWQiOjF9.plmubjypvWmCPAf-7W5ZUEr_We0mBqyBohkhUxDTFHE",
+      "created_at": "2024-10-30T19:46:07.109Z",
+      "expires_at": "2024-10-31T19:46:07Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 20,
+    "fields": {
+      "user": 1,
+      "jti": "b2817165be09494594339db7f973ede6",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwNDAwNCwiaWF0IjoxNzMwMzE3NjA0LCJqdGkiOiJiMjgxNzE2NWJlMDk0OTQ1OTQzMzlkYjdmOTczZWRlNiIsInVzZXJfaWQiOjF9.CgQqC4x9E0jDQybZwOPd7X2XP4C1evpbNx5akMZkdEE",
+      "created_at": "2024-10-30T19:46:44.424Z",
+      "expires_at": "2024-10-31T19:46:44Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 21,
+    "fields": {
+      "user": 1,
+      "jti": "4b9c1066db404d2181627f7c7d4e8a6f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQwNDA2NywiaWF0IjoxNzMwMzE3NjY3LCJqdGkiOiI0YjljMTA2NmRiNDA0ZDIxODE2MjdmN2M3ZDRlOGE2ZiIsInVzZXJfaWQiOjF9.6m3hvzWDiWN4P14c3rgJLotjHKWtG9ocB73JwUz4XFU",
+      "created_at": "2024-10-30T19:47:47.811Z",
+      "expires_at": "2024-10-31T19:47:47Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 22,
+    "fields": {
+      "user": 1,
+      "jti": "fc4599f484194d65971e5725aef5821e",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDA1OSwiaWF0IjoxNzMwMzczNjU5LCJqdGkiOiJmYzQ1OTlmNDg0MTk0ZDY1OTcxZTU3MjVhZWY1ODIxZSIsInVzZXJfaWQiOjF9.Q0DjzHY4YUgXM_vZbkvXBCvDn39h6vLbIDtV41G58a8",
+      "created_at": "2024-10-31T11:20:59.124Z",
+      "expires_at": "2024-11-01T11:20:59Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 23,
+    "fields": {
+      "user": 1,
+      "jti": "7e1eb03e19d04ef380a8a19f85096113",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDE5MSwiaWF0IjoxNzMwMzczNzkxLCJqdGkiOiI3ZTFlYjAzZTE5ZDA0ZWYzODBhOGExOWY4NTA5NjExMyIsInVzZXJfaWQiOjF9.kldEy3yFRiSTwkKg6rbnTwJ98CYOgFancMwOjtNI-5c",
+      "created_at": "2024-10-31T11:23:11.482Z",
+      "expires_at": "2024-11-01T11:23:11Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 24,
+    "fields": {
+      "user": 1,
+      "jti": "53ce165f2b674b45a49a30bbf35a727d",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDI4NCwiaWF0IjoxNzMwMzczODg0LCJqdGkiOiI1M2NlMTY1ZjJiNjc0YjQ1YTQ5YTMwYmJmMzVhNzI3ZCIsInVzZXJfaWQiOjF9.iZONXTD8rl5PhatcNX1BcUX5w1frsStda8Z5c9N4YL8",
+      "created_at": "2024-10-31T11:24:44.364Z",
+      "expires_at": "2024-11-01T11:24:44Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 25,
+    "fields": {
+      "user": 1,
+      "jti": "8d907de0e1b2463c8d9f4924d2e006d3",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDI5NiwiaWF0IjoxNzMwMzczODk2LCJqdGkiOiI4ZDkwN2RlMGUxYjI0NjNjOGQ5ZjQ5MjRkMmUwMDZkMyIsInVzZXJfaWQiOjF9.4Hno8-fzcb14ey51QHEZOCPzV4qXbXNfCHY5SlkrKoc",
+      "created_at": "2024-10-31T11:24:56.183Z",
+      "expires_at": "2024-11-01T11:24:56Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 26,
+    "fields": {
+      "user": 1,
+      "jti": "ab0ffe8407aa40f7a65d4e09dc2fdcaf",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDM0OSwiaWF0IjoxNzMwMzczOTQ5LCJqdGkiOiJhYjBmZmU4NDA3YWE0MGY3YTY1ZDRlMDlkYzJmZGNhZiIsInVzZXJfaWQiOjF9.k9u5ccuYR_Gt0q_fAtH0i49tA5XWCiyZTOAlZH5xgow",
+      "created_at": "2024-10-31T11:25:49.609Z",
+      "expires_at": "2024-11-01T11:25:49Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 27,
+    "fields": {
+      "user": 1,
+      "jti": "bdea5b9a91934cad97179df0f5759bae",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDM3NiwiaWF0IjoxNzMwMzczOTc2LCJqdGkiOiJiZGVhNWI5YTkxOTM0Y2FkOTcxNzlkZjBmNTc1OWJhZSIsInVzZXJfaWQiOjF9.W1gOGXZDdITb8kzjGdHgCYI0Gk2P3-tHQLi-MRErums",
+      "created_at": "2024-10-31T11:26:16.389Z",
+      "expires_at": "2024-11-01T11:26:16Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 28,
+    "fields": {
+      "user": 1,
+      "jti": "0823c796b186478fb3bbd1959f55764a",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDU5MywiaWF0IjoxNzMwMzc0MTkzLCJqdGkiOiIwODIzYzc5NmIxODY0NzhmYjNiYmQxOTU5ZjU1NzY0YSIsInVzZXJfaWQiOjF9.6Bgs7av8ttn8Q-ltbIoFFdeurHlOLYOWWJGH09l-_6Q",
+      "created_at": "2024-10-31T11:29:53.063Z",
+      "expires_at": "2024-11-01T11:29:53Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 29,
+    "fields": {
+      "user": 1,
+      "jti": "d5610b9199ee48e9abbc6aaaa663e245",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDYyNywiaWF0IjoxNzMwMzc0MjI3LCJqdGkiOiJkNTYxMGI5MTk5ZWU0OGU5YWJiYzZhYWFhNjYzZTI0NSIsInVzZXJfaWQiOjF9.Kx5tujayJiIIJyfdY3kE0qPT58raVqOt4tJTpPdvXgM",
+      "created_at": "2024-10-31T11:30:27.627Z",
+      "expires_at": "2024-11-01T11:30:27Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 30,
+    "fields": {
+      "user": 1,
+      "jti": "461d9024accd4fa6937fb4d87e89979f",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDc0OCwiaWF0IjoxNzMwMzc0MzQ4LCJqdGkiOiI0NjFkOTAyNGFjY2Q0ZmE2OTM3ZmI0ZDg3ZTg5OTc5ZiIsInVzZXJfaWQiOjF9.eFpjWQ3Sto-0w3dYXwsnCNl8w8ojhw8pv8m_f-LveEg",
+      "created_at": "2024-10-31T11:32:28.708Z",
+      "expires_at": "2024-11-01T11:32:28Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 31,
+    "fields": {
+      "user": 1,
+      "jti": "4fa7a441ca3645b2bbf071b05be9909e",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MDk5MywiaWF0IjoxNzMwMzc0NTkzLCJqdGkiOiI0ZmE3YTQ0MWNhMzY0NWIyYmJmMDcxYjA1YmU5OTA5ZSIsInVzZXJfaWQiOjF9.CqIHy9FmyEk9UhQFD2UQ5RrFvCNUc5S3dQPu4cKkpJ8",
+      "created_at": "2024-10-31T11:36:33.170Z",
+      "expires_at": "2024-11-01T11:36:33Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 32,
+    "fields": {
+      "user": 1,
+      "jti": "a7cae932954d4f318ce6ffedc7644884",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ2MTA1MCwiaWF0IjoxNzMwMzc0NjUwLCJqdGkiOiJhN2NhZTkzMjk1NGQ0ZjMxOGNlNmZmZWRjNzY0NDg4NCIsInVzZXJfaWQiOjF9.HVtOmDxJoPSdAR3PhGBFQ8gz5R22DdLaPMEHuqL0wGw",
+      "created_at": "2024-10-31T11:37:30.479Z",
+      "expires_at": "2024-11-01T11:37:30Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 33,
+    "fields": {
+      "user": 1,
+      "jti": "f26263e5ccd4467eb63ca3db6c584e07",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDQ3MTc2OSwiaWF0IjoxNzMwMzg1MzY5LCJqdGkiOiJmMjYyNjNlNWNjZDQ0NjdlYjYzY2EzZGI2YzU4NGUwNyIsInVzZXJfaWQiOjF9.CbO-9J5zgyIiU9FPVKwGRQ--we52Jj_TUlX9wN4thfo",
+      "created_at": "2024-10-31T14:36:09.090Z",
+      "expires_at": "2024-11-01T14:36:09Z"
+    }
+  },
+  {
+    "model": "token_blacklist.outstandingtoken",
+    "pk": 34,
+    "fields": {
+      "user": 1,
+      "jti": "22197cf433d7408ca16d1fb85d9a43ab",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTczMDU0NTgwMywiaWF0IjoxNzMwNDU5NDAzLCJqdGkiOiIyMjE5N2NmNDMzZDc0MDhjYTE2ZDFmYjg1ZDlhNDNhYiIsInVzZXJfaWQiOjF9.ZnBALt-o3ijo6ur04ytvysvp6vs6bdikKnufOUyrWDo",
+      "created_at": "2024-11-01T11:10:03.599Z",
+      "expires_at": "2024-11-02T11:10:03Z"
+    }
+  },
+  {
+    "model": "token_blacklist.blacklistedtoken",
+    "pk": 1,
+    "fields": { "token": 31, "blacklisted_at": "2024-10-31T11:36:56.386Z" }
+  },
+  {
+    "model": "students.studentclasses",
+    "pk": 1,
+    "fields": { "class_id": 1, "student_enrollment": 1242134 }
+  },
+  {
+    "model": "students.studentclasses",
+    "pk": 3,
+    "fields": { "class_id": 2, "student_enrollment": 1242121 }
+  },
+  {
+    "model": "students.studentclasses",
+    "pk": 4,
+    "fields": { "class_id": 3, "student_enrollment": 1242121 }
+  },
+  {
+    "model": "students.studentclasses",
+    "pk": 5,
+    "fields": { "class_id": 4, "student_enrollment": 1242121 }
+  },
+  {
+    "model": "students.student",
+    "pk": 123,
+    "fields": {
+      "student_status_id": 1,
+      "city_id": 1,
+      "instance_id": 2,
+      "census_id": null,
+      "name": "GABRIEL ROCHA PAES DA COSTA",
+      "gender": "M",
+      "birth_date": "2004-02-19",
+      "father_name": null,
+      "father_phone": null,
+      "father_rg": null,
+      "father_cpf": null,
+      "mother_name": null,
+      "mother_phone": null,
+      "mother_rg": null,
+      "mother_cpf": null,
+      "housing_id": 1,
+      "responsible_relationship": "Pai",
+      "responsible_name": "GABRIEL ROCHA PAES DA COSTA",
+      "responsible_phone": "89981274201",
+      "responsible_rg": null,
+      "responsible_cpf": null,
+      "address": "Avenida Adolfo Ferreira dos Santos",
+      "neighborhood": null,
+      "allergy_check": null,
+      "allergy_observations": null,
+      "medical_monitoring_check": null,
+      "medical_monitoring_observations": null,
+      "physical_activity_restriction_check": null,
+      "physical_activity_restriction_observations": null,
+      "disorder_check": null,
+      "disorder_observations": null,
+      "disorder_instructions": "",
+      "medication_check": null,
+      "medication_observations": null,
+      "food_restriction_check": null,
+      "food_restriction_observations": null,
+      "image_right_check": null,
+      "sus_number": null,
+      "nis_number": null,
+      "old_birth_certificate_check": null,
+      "birth_certificate": null,
+      "birth_certificate_issue_date": null,
+      "birth_certificate_registry": null,
+      "birthplace": "",
+      "rg": null,
+      "cpf": null,
+      "school_transport_check": null,
+      "disability_check": null,
+      "disability_observations": null,
+      "aee_check": null,
+      "photo": ""
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1242121,
+    "fields": {
+      "student_status_id": 3,
+      "city_id": 1,
+      "instance_id": 2,
+      "census_id": null,
+      "name": "Paloma",
+      "gender": "F",
+      "birth_date": "2004-02-19",
+      "father_name": null,
+      "father_phone": null,
+      "father_rg": null,
+      "father_cpf": null,
+      "mother_name": null,
+      "mother_phone": null,
+      "mother_rg": null,
+      "mother_cpf": null,
+      "housing_id": 1,
+      "responsible_relationship": "M├úe",
+      "responsible_name": "Eliane do Socorro Rocha",
+      "responsible_phone": null,
+      "responsible_rg": null,
+      "responsible_cpf": null,
+      "address": null,
+      "neighborhood": null,
+      "allergy_check": null,
+      "allergy_observations": null,
+      "medical_monitoring_check": null,
+      "medical_monitoring_observations": null,
+      "physical_activity_restriction_check": null,
+      "physical_activity_restriction_observations": null,
+      "disorder_check": null,
+      "disorder_observations": null,
+      "disorder_instructions": "",
+      "medication_check": null,
+      "medication_observations": null,
+      "food_restriction_check": null,
+      "food_restriction_observations": null,
+      "image_right_check": null,
+      "sus_number": null,
+      "nis_number": null,
+      "old_birth_certificate_check": null,
+      "birth_certificate": null,
+      "birth_certificate_issue_date": null,
+      "birth_certificate_registry": null,
+      "birthplace": "",
+      "rg": null,
+      "cpf": null,
+      "school_transport_check": null,
+      "disability_check": null,
+      "disability_observations": null,
+      "aee_check": null,
+      "photo": ""
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1242134,
+    "fields": {
+      "student_status_id": 2,
+      "city_id": 2,
+      "instance_id": 1,
+      "census_id": null,
+      "name": "Willian",
+      "gender": "M",
+      "birth_date": "2004-02-19",
+      "father_name": null,
+      "father_phone": null,
+      "father_rg": null,
+      "father_cpf": null,
+      "mother_name": null,
+      "mother_phone": null,
+      "mother_rg": null,
+      "mother_cpf": null,
+      "housing_id": 1,
+      "responsible_relationship": "M├úe",
+      "responsible_name": "Eliane do Socorro Rocha",
+      "responsible_phone": "89999228477",
+      "responsible_rg": null,
+      "responsible_cpf": null,
+      "address": "Rua Augusta 2356 - Pra├º. Igreja Batista",
+      "neighborhood": "Centro",
+      "allergy_check": null,
+      "allergy_observations": null,
+      "medical_monitoring_check": null,
+      "medical_monitoring_observations": null,
+      "physical_activity_restriction_check": null,
+      "physical_activity_restriction_observations": null,
+      "disorder_check": null,
+      "disorder_observations": null,
+      "disorder_instructions": "",
+      "medication_check": null,
+      "medication_observations": null,
+      "food_restriction_check": null,
+      "food_restriction_observations": null,
+      "image_right_check": null,
+      "sus_number": null,
+      "nis_number": null,
+      "old_birth_certificate_check": null,
+      "birth_certificate": null,
+      "birth_certificate_issue_date": null,
+      "birth_certificate_registry": null,
+      "birthplace": "",
+      "rg": null,
+      "cpf": null,
+      "school_transport_check": null,
+      "disability_check": null,
+      "disability_observations": null,
+      "aee_check": null,
+      "photo": ""
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 124234124,
+    "fields": {
+      "student_status_id": 1,
+      "city_id": 2,
+      "instance_id": 1,
+      "census_id": null,
+      "name": "Rocha Paes da Costa",
+      "gender": "M",
+      "birth_date": "2004-02-19",
+      "father_name": null,
+      "father_phone": null,
+      "father_rg": null,
+      "father_cpf": null,
+      "mother_name": null,
+      "mother_phone": null,
+      "mother_rg": null,
+      "mother_cpf": null,
+      "housing_id": 1,
+      "responsible_relationship": "Pai",
+      "responsible_name": "Rocha Paes da Costa",
+      "responsible_phone": "89999228477",
+      "responsible_rg": null,
+      "responsible_cpf": null,
+      "address": "Rua Augusta 2356 - Pra├º. Igreja Batista",
+      "neighborhood": "Centro",
+      "allergy_check": null,
+      "allergy_observations": null,
+      "medical_monitoring_check": null,
+      "medical_monitoring_observations": null,
+      "physical_activity_restriction_check": null,
+      "physical_activity_restriction_observations": null,
+      "disorder_check": null,
+      "disorder_observations": null,
+      "disorder_instructions": "",
+      "medication_check": null,
+      "medication_observations": null,
+      "food_restriction_check": null,
+      "food_restriction_observations": null,
+      "image_right_check": null,
+      "sus_number": null,
+      "nis_number": null,
+      "old_birth_certificate_check": null,
+      "birth_certificate": null,
+      "birth_certificate_issue_date": null,
+      "birth_certificate_registry": null,
+      "birthplace": "",
+      "rg": null,
+      "cpf": null,
+      "school_transport_check": null,
+      "disability_check": null,
+      "disability_observations": null,
+      "aee_check": null,
+      "photo": ""
+    }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 1,
+    "fields": { "description": "Ativo" }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 2,
+    "fields": { "description": "Inativo" }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 3,
+    "fields": { "description": "Desistente" }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 4,
+    "fields": { "description": "Transferido" }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 5,
+    "fields": { "description": "Cursando" }
+  },
+  {
+    "model": "students.studentstatus",
+    "pk": 6,
+    "fields": { "description": "Falecido" }
+  },
+  {
+    "model": "academics.schoolyear",
+    "pk": 1,
+    "fields": {
+      "academic_year_id": 1,
+      "school_id": 2,
+      "series": "7┬║ ANO",
+      "stage": "EF",
+      "curriculum_matrix_id": 1
+    }
+  },
+  {
+    "model": "academics.schoolyear",
+    "pk": 2,
+    "fields": {
+      "academic_year_id": 1,
+      "school_id": 2,
+      "series": "8┬║ ANO",
+      "stage": "EF",
+      "curriculum_matrix_id": 1
+    }
+  },
+  {
+    "model": "academics.schoolyear",
+    "pk": 3,
+    "fields": {
+      "academic_year_id": 2,
+      "school_id": 2,
+      "series": "7┬║ ANO",
+      "stage": "EF",
+      "curriculum_matrix_id": 1
+    }
+  },
+  {
+    "model": "academics.schoolyear",
+    "pk": 4,
+    "fields": {
+      "academic_year_id": 3,
+      "school_id": 2,
+      "series": "6┬║ ANO",
+      "stage": "EF",
+      "curriculum_matrix_id": 1
+    }
+  },
+  {
+    "model": "academics.academicyear",
+    "pk": 1,
+    "fields": { "description": 2024 }
+  },
+  {
+    "model": "academics.academicyear",
+    "pk": 2,
+    "fields": { "description": 2023 }
+  },
+  {
+    "model": "academics.academicyear",
+    "pk": 3,
+    "fields": { "description": 2022 }
+  },
+  {
+    "model": "academics.curricularmatrix",
+    "pk": 1,
+    "fields": { "description": "Teste", "matrix_year": 2024 }
+  },
+  {
+    "model": "administration.school",
+    "pk": 1,
+    "fields": {
+      "instance_id": 1,
+      "corporate_name": "UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI",
+      "trade_name": "UNIDADE ESCOLAR JOAO DE DEUS RODRIGUES DE OLI",
+      "address": "Rua Augusta 2356 - Pra├º. Igreja Batista",
+      "neighborhood": "Centro",
+      "email": "gabrielrocha1902@gmail.com",
+      "postal_code": "64980-000",
+      "tax_id": "12412211223",
+      "inep_code": "123123",
+      "logo": "21421",
+      "additional_field": null
+    }
+  },
+  {
+    "model": "administration.school",
+    "pk": 2,
+    "fields": {
+      "instance_id": 2,
+      "corporate_name": "UNIDADE ESCOLAR L├ëLIA SILVA TRINDADE",
+      "trade_name": "U E LELIA SILVA TRINDADE",
+      "address": "Avenida Adolfo Ferreira dos Santos, 376",
+      "neighborhood": "ESPERAN├çA",
+      "email": "2019escolalelia@gmail.com",
+      "postal_code": "64780-000",
+      "tax_id": "01.949.913/0001-11",
+      "inep_code": "123123",
+      "logo": "01.949.913/0001-11",
+      "additional_field": null
+    }
+  },
+  {
+    "model": "administration.school",
+    "pk": 3,
+    "fields": {
+      "instance_id": 1,
+      "corporate_name": "UNIDADE ESCOLAR GABRIEL ROCHA PAES DA COSTA",
+      "trade_name": "GABRIEL ROCHA PAES DA COSTA",
+      "address": "Avenida Adolfo Ferreira dos Santos",
+      "neighborhood": "Centro",
+      "email": "gabrielrocha1902@gmail.com",
+      "postal_code": "64780-000",
+      "tax_id": "1242123",
+      "inep_code": "12412232423423423412",
+      "logo": "12312321",
+      "additional_field": null
+    }
+  },
+  {
+    "model": "administration.employee",
+    "pk": 1,
+    "fields": {
+      "schooling": 7,
+      "name": "Gabriel Rocha Paes da Costa",
+      "gender": "M",
+      "birth_date": "2000-01-01",
+      "rg": null,
+      "cpf": "00000000000",
+      "photo": ""
+    }
+  },
+  {
+    "model": "administration.employeeschool",
+    "pk": 1,
+    "fields": {
+      "employee_id": 1,
+      "school_id": 1,
+      "contract_type_id": 3,
+      "academic_year_id": 1,
+      "position_id": 6,
+      "user_type": "gestor"
+    }
+  },
+  {
+    "model": "administration.employeeschool",
+    "pk": 2,
+    "fields": {
+      "employee_id": 1,
+      "school_id": 2,
+      "contract_type_id": 3,
+      "academic_year_id": 1,
+      "position_id": 6,
+      "user_type": "docente"
+    }
+  },
+  {
+    "model": "administration.employeeschool",
+    "pk": 3,
+    "fields": {
+      "employee_id": 1,
+      "school_id": 3,
+      "contract_type_id": 3,
+      "academic_year_id": 1,
+      "position_id": 2,
+      "user_type": "docente"
+    }
+  },
+  {
+    "model": "administration.contracttype",
+    "pk": 2,
+    "fields": { "description": "CLT" }
+  },
+  {
+    "model": "administration.contracttype",
+    "pk": 3,
+    "fields": { "description": "CC" }
+  },
+  {
+    "model": "administration.contracttype",
+    "pk": 4,
+    "fields": { "description": "Tempor├írio" }
+  },
+  {
+    "model": "administration.contracttype",
+    "pk": 5,
+    "fields": { "description": "Est├ígio" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 1,
+    "fields": { "description": "Administrador(a)" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 2,
+    "fields": { "description": "Diretor(a)" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 3,
+    "fields": { "description": "Supervisor(a) de Ensino" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 4,
+    "fields": { "description": "Coordenador(a) Pedag├│gico(a)" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 5,
+    "fields": { "description": "Orientador(a) Ped├ígogico(a)" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 6,
+    "fields": { "description": "Professor(a)" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 7,
+    "fields": { "description": "Secret├írio(a) Escolar" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 8,
+    "fields": { "description": "Auxiliar de Servi├ºos Gerais" }
+  },
+  {
+    "model": "administration.position",
+    "pk": 9,
+    "fields": { "description": "V├¡gia" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 1,
+    "fields": { "school": 2, "description": "SALA 01" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 2,
+    "fields": { "school": 2, "description": "SALA 02" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 3,
+    "fields": { "school": 2, "description": "SALA 03" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 4,
+    "fields": { "school": 1, "description": "SALA 01" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 5,
+    "fields": { "school": 1, "description": "SALA 02" }
+  },
+  {
+    "model": "administration.room",
+    "pk": 6,
+    "fields": { "school": 1, "description": "SALA 03" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 1,
+    "fields": { "description": "Ensino Fundamental Completo" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 2,
+    "fields": { "description": "Ensino Fundamental Incompleto" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 3,
+    "fields": { "description": "Ensino M├®dio Completo" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 4,
+    "fields": { "description": "Ensino M├®dio Incompleto" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 5,
+    "fields": { "description": "Ensino P├│s Gradua├º├úo Completo" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 6,
+    "fields": { "description": "Ensino P├│s Gradua├º├úo Incompleto" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 7,
+    "fields": { "description": "Ensino Superior Completo" }
+  },
+  {
+    "model": "administration.schooling",
+    "pk": 8,
+    "fields": { "description": "Ensino Superior Incompleto" }
+  },
+  {
+    "model": "locations.city",
+    "pk": 1,
+    "fields": { "state_id": 1, "name": "AN├ìSIO DE ABREU" }
+  },
+  {
+    "model": "locations.city",
+    "pk": 2,
+    "fields": { "state_id": 1, "name": "CAPIT├âO GERV├üSIO OLIVEIRA" }
+  },
+  {
+    "model": "locations.state",
+    "pk": 1,
+    "fields": { "uf": "PI", "name": "Piau├¡" }
+  },
+  {
+    "model": "locations.housing",
+    "pk": 1,
+    "fields": { "description": "Casa" }
+  },
+  {
+    "model": "locations.instance",
+    "pk": 1,
+    "fields": {
+      "state_id": 1,
+      "name": "CAPIT├âO GERV├üSIO OLIVEIRA",
+      "address": "CAPIT├âO GERV├üSIO OLIVEIRA",
+      "neighborhood": "Centro",
+      "postal_code": "64980-000",
+      "tax_id": "12412211223"
+    }
+  },
+  {
+    "model": "locations.instance",
+    "pk": 2,
+    "fields": {
+      "state_id": 1,
+      "name": "AN├ìSIO DE ABREU",
+      "address": "Avenida Adolfo Ferreira dos Santos",
+      "neighborhood": "Centro",
+      "postal_code": "64780-000",
+      "tax_id": "1242123"
+    }
+  },
+  {
+    "model": "management.classe",
+    "pk": 1,
+    "fields": {
+      "shift_id": 5,
+      "school_year_id": 1,
+      "room_id": 1,
+      "description": "├ÜNICA",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "eja": 0
+    }
+  },
+  {
+    "model": "management.classe",
+    "pk": 2,
+    "fields": {
+      "shift_id": 6,
+      "school_year_id": 2,
+      "room_id": 1,
+      "description": "├ÜNICA",
+      "start_time": "12:00",
+      "end_time": "18:00",
+      "eja": 0
+    }
+  },
+  {
+    "model": "management.classe",
+    "pk": 3,
+    "fields": {
+      "shift_id": 6,
+      "school_year_id": 3,
+      "room_id": 2,
+      "description": "├ÜNICA",
+      "start_time": "08:00",
+      "end_time": "12:00",
+      "eja": 0
+    }
+  },
+  {
+    "model": "management.classe",
+    "pk": 4,
+    "fields": {
+      "shift_id": 5,
+      "school_year_id": 4,
+      "room_id": 3,
+      "description": "├ÜNICA",
+      "start_time": "12:00",
+      "end_time": "18:00",
+      "eja": 0
+    }
+  },
+  {
+    "model": "management.shift",
+    "pk": 1,
+    "fields": { "instance_id": 1, "description": "MATUTINO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 2,
+    "fields": { "instance_id": 1, "description": "VESPERTINO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 3,
+    "fields": { "instance_id": 1, "description": "NOTURNO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 4,
+    "fields": { "instance_id": 1, "description": "INTEGRAL" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 5,
+    "fields": { "instance_id": 2, "description": "MATUTINO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 6,
+    "fields": { "instance_id": 2, "description": "VESPERTINO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 7,
+    "fields": { "instance_id": 2, "description": "NOTURNO" }
+  },
+  {
+    "model": "management.shift",
+    "pk": 8,
+    "fields": { "instance_id": 2, "description": "INTEGRAL" }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$mqDXMJ0wSQLAPWJyAQctwj$xPR3Ma0ZWTvlXXn+O3xuCKpSHzDdFMq9Y+X+Y/r+fLc=",
+      "last_login": "2024-10-30T19:05:51.677Z",
+      "employee": 1,
+      "username": "rochagabriell",
+      "access_count": 34,
+      "last_access": "2024-11-01T11:10:03.611Z",
+      "is_active": true,
+      "is_staff": true,
+      "is_superuser": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

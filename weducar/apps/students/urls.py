@@ -9,18 +9,18 @@ from .views import (
 app_name = 'Students'
 
 router = DefaultRouter(trailing_slash=True)
-router.register(r'students', StudentViewSet, basename='students')
+router.register(r'', StudentViewSet, basename='students')
 router.register(
-    r'students/(?P<student_id>\d+)/classes', StudentClassesViewSet, basename='student_classes',
+    r'(?P<student_id>\d+)/classes', StudentClassesViewSet, basename='student_classes',
 )
 router.register(
-    r'students/(?P<student_id>\d+)/status', StudentStatusViewSet, basename='student_status',
+    r'(?P<student_id>\d+)/status', StudentStatusViewSet, basename='student_status',
 )
 router.register(
-    r'students/(?P<student_id>\d+)/history', HistoryViewSet, basename='student_history',
+    r'(?P<student_id>\d+)/history', HistoryViewSet, basename='student_history',
 )
 router.register(
-    r'students/(?P<student_id>\d+)/history/(?P<history_id>\d+)/areas', HistoryAreaViewSet, basename='student_history_areas',
+    r'(?P<student_id>\d+)/history/(?P<history_id>\d+)/areas', HistoryAreaViewSet, basename='student_history_areas',
 )
 
 

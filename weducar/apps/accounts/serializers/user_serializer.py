@@ -6,11 +6,15 @@ from ..models import User
 
 class UserSerializer(serializers.ModelSerializer):
     employee = EmployeeSerializer()
+    schools = serializers.SerializerMethodField()
 
     class Meta:
         model = User
         fields = "__all__"
         extra_kwargs = {'password': {'write_only': True}}
+
+    def get_schools(self, obj):
+        return obj.get_schools()
 
 
 class UserCreateSerializer(serializers.ModelSerializer):
@@ -19,7 +23,6 @@ class UserCreateSerializer(serializers.ModelSerializer):
         fields = [
             'username',
             'password',
-            'user_type',
             'employee'
         ]
         extra_kwargs = {'password': {'write_only': True}}

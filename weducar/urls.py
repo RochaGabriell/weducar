@@ -14,10 +14,13 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.views.defaults import page_not_found, server_error
 from drf_yasg.views import get_schema_view
+from django.conf.urls.static import static
 from rest_framework import permissions
 from django.urls import path, include
 from django.contrib import admin
+from django.conf import settings
 from drf_yasg import openapi
 
 # swagger settings
@@ -33,15 +36,23 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
+    # Rotas genéricas
+    path(
+        '404/', page_not_found, kwargs={'exception': Exception("Page not found")}
+    ),
+    path('500/', server_error),
+
     # Django admin
-    path('admin/', admin.site.urls),
+    path('secure-admin/', admin.site.urls),
+
     # Swagger e Redoc
     path(
         '', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'
     ),
     path(
-        'api/v1/redoc/', schema_view.with_ui('redoc', cache_timeout=0),  name='schema-redoc',
+        'redoc/', schema_view.with_ui('redoc', cache_timeout=0),  name='schema-redoc',
     ),
+
     # Apps
     path(
         'api/v1/academics/', include('weducar.apps.academics.urls'), name="academics",
@@ -59,5 +70,9 @@ urlpatterns = [
     path(
         'api/v1/management/', include('weducar.apps.management.urls'), name="management",
     ),
-    path('api/v1/students/', include('weducar.apps.students.urls'), name="students",),
+    path(
+        'api/v1/students/', include('weducar.apps.students.urls'), name="students",
+    ),
 ]
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
