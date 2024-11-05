@@ -2,7 +2,7 @@ from django.db import models
 
 
 class State(models.Model):
-    state_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, verbose_name='ID do Estado', db_column='id_estado',
     )
     uf = models.CharField(
@@ -11,7 +11,7 @@ class State(models.Model):
     name = models.CharField(
         max_length=45, verbose_name='Nome', db_column='nome',
     )
-    
+
     def __str__(self):
         return f'{self.name} - {self.uf}'
 

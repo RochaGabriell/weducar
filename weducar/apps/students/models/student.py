@@ -1,3 +1,4 @@
+from django.utils.crypto import get_random_string
 from django.db import models
 
 from ..models.student_classes import StudentClasses
@@ -5,16 +6,16 @@ from ..models.student_classes import StudentClasses
 
 class Student(models.Model):
     registration = models.PositiveIntegerField(
-        primary_key=True, verbose_name='Matrícula', db_column='matricula',
+        primary_key=True, blank=True, verbose_name='Matrícula', db_column='matricula',
     )
-    student_status_id = models.ForeignKey(
+    student_status = models.ForeignKey(
         'students.StudentStatus', models.DO_NOTHING, verbose_name='Situacao Aluno', db_column='id_situacao_aluno',
     )
-    city_id = models.ForeignKey(
+    city = models.ForeignKey(
         'locations.City', models.DO_NOTHING, verbose_name='Cidade',
         db_column='id_cidade',
     )
-    instance_id = models.ForeignKey(
+    instance = models.ForeignKey(
         'locations.Instance', models.DO_NOTHING, verbose_name='Instancia',
         db_column='id_instancia',
     )
@@ -60,7 +61,7 @@ class Student(models.Model):
         max_length=11, blank=True, null=True, verbose_name='CPF da Mãe',
         db_column='mae_cpf',
     )
-    housing_id = models.ForeignKey(
+    housing = models.ForeignKey(
         'locations.Housing', models.DO_NOTHING, verbose_name='Moradia',
         db_column='id_moradia',
     )
@@ -183,22 +184,36 @@ class Student(models.Model):
     photo = models.TextField(
         blank=True, null=True, verbose_name='Foto', db_column='foto',
     )
+    date_joined = models.DateTimeField(
+        verbose_name='Data de Entrada', auto_now_add=True
+    )
+    date_changed = models.DateTimeField(
+        verbose_name='Data de alteração', auto_now=True
+    )
+
+    def save(self, *args, **kwargs):
+        if not self.registration:
+            instance_id = self.instance_id
+            unique_suffix = get_random_string(
+                length=5, allowed_chars='0123456789'
+                )
+            self.registration = int(f"{instance_id}{unique_suffix}")
+        super().save(*args, **kwargs)
 
     def get_classe(self):
         student_registration = self.registration
         student_classe = StudentClasses.objects.filter(
             student_enrollment__registration=student_registration,
-        ).select_related('class_id__school_year_id').order_by('class_id__school_year_id__academic_year_id')
+        ).select_related('classe__school_year').order_by('classe__school_year__academic_year')
 
         if student_classe.exists():
             latest_class = student_classe.first()
-            print(latest_class)
             return latest_class.to_dict()
 
         return
 
     def __str__(self):
-        return f'{self.registration} - {self.name} - {self.city_id.name}'
+        return f'{self.registration} - {self.name} - {self.city.name}'
 
     class Meta:
         db_table = 'alunos'

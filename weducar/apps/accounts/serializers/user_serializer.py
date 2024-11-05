@@ -7,14 +7,29 @@ from ..models import User
 class UserSerializer(serializers.ModelSerializer):
     employee = EmployeeSerializer()
     schools = serializers.SerializerMethodField()
+    instances = serializers.SerializerMethodField()
 
     class Meta:
         model = User
-        fields = "__all__"
+        fields = [
+            'username',
+            'access_count',
+            'last_access',
+            'is_active',
+            'is_staff',
+            'is_superuser',
+            'employee',
+            'schools',
+            'instances',
+        ]
+
         extra_kwargs = {'password': {'write_only': True}}
 
     def get_schools(self, obj):
         return obj.get_schools()
+
+    def get_instances(self, obj):
+        return obj.get_instances()
 
 
 class UserCreateSerializer(serializers.ModelSerializer):

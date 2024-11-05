@@ -2,10 +2,10 @@ from django.db import models
 
 
 class Instance(models.Model):
-    instance_id = models.AutoField(
+    id = models.BigAutoField(
         primary_key=True, verbose_name='ID da Instância', db_column='id_instancia'
     )
-    state_id = models.ForeignKey(
+    state = models.ForeignKey(
         'locations.State', models.DO_NOTHING, verbose_name='Estado', db_column='id_estado'
     )
     name = models.CharField(
@@ -23,9 +23,16 @@ class Instance(models.Model):
     tax_id = models.CharField(
         max_length=45, verbose_name='CNPJ', db_column='cnpj'
     )
-    
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'user_type': 'super_user'
+        }
+
     def __str__(self):
-        return f'{self.name} - {self.state_id}'
+        return f'{self.name} - {self.state}'
 
     class Meta:
         db_table = 'instancias'

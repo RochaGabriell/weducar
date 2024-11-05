@@ -2,10 +2,10 @@ from django.db import models
 
 
 class City(models.Model):
-    city_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, verbose_name='ID da Cidade', db_column='id_cidade',
     )
-    state_id = models.ForeignKey(
+    state = models.ForeignKey(
         'locations.State', models.DO_NOTHING, verbose_name='Estado',
         db_column='id_estado'
     )
@@ -14,7 +14,7 @@ class City(models.Model):
     )
 
     def __str__(self):
-        return f'{self.name} - {self.state_id.uf}'
+        return f'{self.name} - {self.state.uf}'
 
     class Meta:
         db_table = 'cidades'

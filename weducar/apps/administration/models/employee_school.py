@@ -1,7 +1,7 @@
 from django.db import models
 
 USER_TYPE = (
-    ('super_admin', 'Super Admin'),
+    ('super_user', 'Super Usuário'),
     ('admin', 'Admin'),
     ('gestor', 'Gestor'),
     ('docente', 'Docente'),

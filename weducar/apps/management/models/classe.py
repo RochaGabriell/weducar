@@ -2,16 +2,16 @@ from django.db import models
 
 
 class Classe(models.Model):
-    class_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, verbose_name='ID da Turma', db_column='id_turma'
     )
-    shift_id = models.ForeignKey(
+    shift = models.ForeignKey(
         'management.Shift', models.DO_NOTHING, verbose_name='Turno', db_column='id_turno'
     )
-    school_year_id = models.ForeignKey(
+    school_year = models.ForeignKey(
         'academics.SchoolYear', models.DO_NOTHING, verbose_name='Ano Escolar', db_column='id_ano_escolar'
     )
-    room_id = models.ForeignKey(
+    room = models.ForeignKey(
         'administration.Room', models.DO_NOTHING, verbose_name='Sala', db_column='id_sala'
     )
     description = models.CharField(

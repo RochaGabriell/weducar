@@ -2,10 +2,10 @@ from django.db import models
 
 
 class School(models.Model):
-    school_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, verbose_name='ID da Escola', db_column='id_escola'
     )
-    instance_id = models.ForeignKey(
+    instance = models.ForeignKey(
         'locations.Instance', models.DO_NOTHING, verbose_name='Instância',
         db_column='id_instancia'
     )
@@ -42,7 +42,7 @@ class School(models.Model):
     )
 
     def __str__(self):
-        return f'{self.corporate_name} | {self.instance_id}'
+        return f'{self.corporate_name} | {self.instance}'
 
     class Meta:
         db_table = 'escolas'

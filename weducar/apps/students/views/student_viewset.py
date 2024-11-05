@@ -6,6 +6,7 @@ from rest_framework.response import Response
 
 from ..serializers.student_serializer import StudentSerializer, StudentDetailSerializer
 from ..models import Student
+from weducar.apps.locations.models.instance import Instance
 
 
 class StudentViewSet(viewsets.ModelViewSet):
@@ -15,7 +16,7 @@ class StudentViewSet(viewsets.ModelViewSet):
     filter_backends = [SearchFilter, OrderingFilter, DjangoFilterBackend]
     search_fields = ['name']
     ordering_fields = ['name']
-    filterset_fields = ['student_status_id', 'instance_id']
+    filterset_fields = ['student_status', 'instance']
 
     def get_serializer_class(self):
         if self.action == 'retrieve':

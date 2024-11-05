@@ -2,7 +2,7 @@ from django.db import models
 
 
 class StudentStatus(models.Model):
-    student_status_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, verbose_name='ID da Situação Aluno', db_column='id_situacao_aluno',
     )
     description = models.CharField(

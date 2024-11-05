@@ -43,7 +43,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = get_secret('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = get_secret('DJANGO_IS_DEBUG') == 'True'
 
 ALLOWED_HOSTS = ['*']
 
@@ -229,7 +229,7 @@ STATIC_ROOT = BASE_DIR / "static"
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.User'
-
+LOGIN_URL = 'secure-admin/'
 LOGOUT_REDIRECT_URL = 'schema-swagger-ui'
 
 # CORS

@@ -2,13 +2,13 @@ from django.db import models
 
 
 class CurricularComponentMatrix(models.Model):
-    matrix_component_id = models.AutoField(
+    id = models.AutoField(
         primary_key=True, db_column='id_matriz_componente',
     )
-    component_id = models.ForeignKey(
+    component = models.ForeignKey(
         'academics.CurricularComponent', models.DO_NOTHING, db_column='id_componente'
     )
-    matrix_id = models.ForeignKey(
+    matrix = models.ForeignKey(
         'academics.CurricularMatrix', models.DO_NOTHING, db_column='id_matriz'
     )
     stage = models.CharField(max_length=2)

@@ -9,6 +9,9 @@ class Week(models.Model):
         max_length=45, verbose_name='Descrição', db_column='descricao'
     )
 
+    def __str__(self):
+        return self.description
+
     class Meta:
         db_table = 'semana'
         verbose_name = 'Dia da Semana'

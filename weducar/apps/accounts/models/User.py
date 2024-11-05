@@ -35,28 +35,33 @@ class User(AbstractBaseUser, PermissionsMixin):
     objects = CustomUserManager()
 
     def get_instances(self):
-        employee_schools = EmployeeSchool.objects.filter(
-            employee_id=self.employee
-            # realizar um join e carregar os dados de school_id e seu respectivo instance_id
-        ).select_related('school_id__instance_id')
+        if not self.is_superuser:
+            employee_schools = EmployeeSchool.objects.filter(
+                employee_id=self.employee
+                # realizar um join e carregar os dados de school_id e seu respectivo instance_id
+            ).select_related('school_id__instance')
 
-        unique_instances = {}
+            unique_instances = {}
 
-        for emp_school in employee_schools:
-            instance_id = emp_school.school_id.instance_id
-            if instance_id not in unique_instances:
-                unique_instances[instance_id] = {
-                    'id': emp_school.school_id.instance_id.instance_id,
-                    'name': emp_school.school_id.instance_id.name,
-                    'user_type': emp_school.user_type,
-                }
+            for emp_school in employee_schools:
+                instance_id = emp_school.school_id.instance
+                if instance_id not in unique_instances:
+                    unique_instances[instance_id] = {
+                        'id': emp_school.school_id.instance_id.instance_id,
+                        'name': emp_school.school_id.instance_id.name,
+                        'user_type': emp_school.user_type,
+                    }
 
-        return list(unique_instances.values())
+            return list(unique_instances.values())
+        else:
+            instances = Instance.objects.all()
+            instances_list = [instance.to_dict() for instance in instances]
+            return instances_list
 
     def get_schools(self):
         employee_schools = EmployeeSchool.objects.filter(
             employee_id=self.employee
-        ).select_related('school_id__instance_id')
+        ).select_related('school_id__instance')
 
         instances_data = [
             {

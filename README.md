@@ -84,9 +84,12 @@ Sistema de gestão escolar desenvolvido com Django, projetado para ajudar escola
    python manage.py migrate
    ```
 
-5. Crie a tabela de escolaridade:
+5. Crie a tabela de escolaridade, status, cargos e tipos de contrato:
    ```bash
    python manage.py create_schooling
+   python manage.py create_student_status
+   python manage.py create_position 
+   python manage.py create_contract_type
    ```
 
 6. Crie um superusuário para acessar o painel administrativo:
