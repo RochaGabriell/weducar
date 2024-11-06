@@ -90,6 +90,7 @@ Sistema de gestão escolar desenvolvido com Django, projetado para ajudar escola
    python manage.py create_student_status
    python manage.py create_position 
    python manage.py create_contract_type
+   python manage.py load_brazilian_cities
    python manage.py color
    ```
 
