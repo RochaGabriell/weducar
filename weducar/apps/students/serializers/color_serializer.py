@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from ..models import StudentStatus
+from ..models import Color
 
 
-class StudentStatusSerializer(serializers.ModelSerializer):
+class ColorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = StudentStatus
+        model = Color
         fields = '__all__'
 
     def to_representation(self, instance):

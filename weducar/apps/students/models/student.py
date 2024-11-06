@@ -3,6 +3,11 @@ from django.db import models
 
 from ..models.student_classes import StudentClasses
 
+GENDER_CHOICES = [
+    ('M', 'Masculino'),
+    ('F', 'Feminino'),
+]
+
 
 class Student(models.Model):
     registration = models.PositiveIntegerField(
@@ -19,6 +24,10 @@ class Student(models.Model):
         'locations.Instance', models.DO_NOTHING, verbose_name='Instancia',
         db_column='id_instancia',
     )
+    color = models.ForeignKey(
+        'students.Color', models.DO_NOTHING, verbose_name='Cor',
+        db_column='id_cor', default=6,
+    )
     census_id = models.IntegerField(
         blank=True, null=True, verbose_name='ID do Censo', db_column='id_censo',
     )
@@ -26,7 +35,7 @@ class Student(models.Model):
         max_length=45, verbose_name='Nome', db_column='nome',
     )
     gender = models.CharField(
-        max_length=1, verbose_name='Sexo', db_column='sexo',
+        max_length=1, choices=GENDER_CHOICES, verbose_name='Sexo', db_column='sexo',
     )
     birth_date = models.DateField(
         verbose_name='Data de Nascimento', db_column='data_nascimento',
@@ -43,8 +52,8 @@ class Student(models.Model):
         db_column='pai_rg',
     )
     father_cpf = models.CharField(
-        max_length=11, blank=True, null=True, verbose_name='CPF do Pai',
-        db_column='pai_cpf',
+        max_length=11, blank=True, null=True, unique=True,
+        verbose_name='CPF do Pai', db_column='pai_cpf',
     )
     mother_name = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Nome da Mãe',
@@ -92,26 +101,26 @@ class Student(models.Model):
     )
     allergy_check = models.IntegerField(
         blank=True, null=True, verbose_name='Check Alergia',
-        db_column='check_alergia',
+        db_column='check_alergia', default=0,
     )
     allergy_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações sobre Alergia', db_column='obs_alergia',
     )
     medical_monitoring_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check Acompanhamento Médico', db_column='check_acompanhamento_medico',
+        blank=True, null=True, verbose_name='Check Acompanhamento Médico', db_column='check_acompanhamento_medico', default=0,
     )
     medical_monitoring_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações sobre Acompanhamento Médico', db_column='obs_acompanhamento_medico',
     )
     physical_activity_restriction_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check Restrição de Atividade Física', db_column='check_restricao_atv_fisica',
+        blank=True, null=True, verbose_name='Check Restrição de Atividade Física', db_column='check_restricao_atv_fisica', default=0,
     )
     physical_activity_restriction_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações sobre Restrição de Atividade Física', db_column='obs_restricao_atv_fisica',
     )
     disorder_check = models.IntegerField(
         blank=True, null=True, verbose_name='Check Distúrbio',
-        db_column='check_disturbio',
+        db_column='check_disturbio', default=0,
     )
     disorder_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações sobre Distúrbio', db_column='obs_disturbio',
@@ -121,20 +130,20 @@ class Student(models.Model):
     )
     medication_check = models.IntegerField(
         blank=True, null=True, verbose_name='Check Medicação',
-        db_column='check_medicacao',
+        db_column='check_medicacao', default=0,
     )
     medication_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações sobre Medicação', db_column='obs_medicacao',
     )
-    food_restriction_check = models.FloatField(
+    food_restriction_check = models.IntegerField(
         blank=True, null=True, verbose_name='Check Restrição Alimentar',
-        db_column='check_restricao_alimentar',
+        db_column='check_restricao_alimentar', default=0,
     )
     food_restriction_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações de Restrição Alimentar', db_column='obs_restricao_alimentar',
     )
     image_right_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check Direito de Imagem', db_column='check_direito_imagem',
+        blank=True, null=True, verbose_name='Check Direito de Imagem', db_column='check_direito_imagem', default=0,
     )
     sus_number = models.CharField(
         max_length=15, blank=True, null=True, verbose_name='Número do SUS',
@@ -146,7 +155,7 @@ class Student(models.Model):
     )
     old_birth_certificate_check = models.IntegerField(
         blank=True, null=True, verbose_name='Check Certidão Antiga',
-        db_column='check_certidao_antiga',
+        db_column='check_certidao_antiga', default=0,
     )
     birth_certificate = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Certidão de Nascimento',
@@ -170,16 +179,18 @@ class Student(models.Model):
         max_length=11, blank=True, null=True, verbose_name='CPF', db_column='cpf',
     )
     school_transport_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check Transporte Escolar', db_column='check_transporte_escolar',
+        blank=True, null=True, verbose_name='Check Transporte Escolar', db_column='check_transporte_escolar', default=0,
     )
     disability_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check PCD', db_column='check_pcd',
+        blank=True, null=True, verbose_name='Check PCD',
+        db_column='check_pcd', default=0,
     )
     disability_observations = models.CharField(
         max_length=255, blank=True, null=True, verbose_name='Observações de PCD', db_column='obs_pcd',
     )
     aee_check = models.IntegerField(
-        blank=True, null=True, verbose_name='Check AEE', db_column='check_aee',
+        blank=True, null=True, verbose_name='Check AEE',
+        db_column='check_aee', default=0,
     )
     photo = models.TextField(
         blank=True, null=True, verbose_name='Foto', db_column='foto',
@@ -192,12 +203,22 @@ class Student(models.Model):
     )
 
     def save(self, *args, **kwargs):
-        if not self.registration:
-            instance_id = self.instance_id
+        if self.name:
+            self.name = self.name.upper()
+        if self.responsible_relationship:
+            self.responsible_relationship = self.responsible_relationship.upper()
+        if self.responsible_name:
+            self.responsible_name = self.responsible_name.upper()
+        if self.father_name:
+            self.father_name = self.father_name.upper()
+        if self.mother_name:
+            self.mother_name = self.mother_name.upper()
+
+        if not self.registration and self.instance_id:
             unique_suffix = get_random_string(
                 length=5, allowed_chars='0123456789'
-                )
-            self.registration = int(f"{instance_id}{unique_suffix}")
+            )
+            self.registration = int(f"{self.instance_id}{unique_suffix}")
         super().save(*args, **kwargs)
 
     def get_classe(self):
@@ -205,12 +226,10 @@ class Student(models.Model):
         student_classe = StudentClasses.objects.filter(
             student_enrollment__registration=student_registration,
         ).select_related('classe__school_year').order_by('classe__school_year__academic_year')
-
         if student_classe.exists():
             latest_class = student_classe.first()
             return latest_class.to_dict()
-
-        return
+        return None
 
     def __str__(self):
         return f'{self.registration} - {self.name} - {self.city.name}'

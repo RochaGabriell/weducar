@@ -9,7 +9,8 @@ class StudentClasses(models.Model):
         'management.Classe', models.DO_NOTHING, verbose_name='Turma', db_column='id_turma'
     )
     student_enrollment = models.ForeignKey(
-        'students.Student', models.DO_NOTHING, verbose_name='Matrícula do Aluno', db_column='aluno_matricula'
+        'students.Student', models.DO_NOTHING, related_name='studentclasses',
+        verbose_name='Matrícula do Aluno', db_column='aluno_matricula'
     )
 
     def to_dict(self):
