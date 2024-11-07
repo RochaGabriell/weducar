@@ -65,9 +65,9 @@ class User(AbstractBaseUser, PermissionsMixin):
 
         instances_data = [
             {
-                'id': emp_school.school_id.school_id,
+                'id': emp_school.school_id.id,
                 'name': emp_school.school_id.corporate_name,
-                'instance': emp_school.school_id.instance_id.name,
+                'instance': emp_school.school_id.instance.name,
                 'user_type': emp_school.user_type,
             }
             for emp_school in employee_schools

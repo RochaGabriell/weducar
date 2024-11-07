@@ -12,6 +12,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = [
+            'id',
             'username',
             'access_count',
             'last_access',
@@ -23,7 +24,10 @@ class UserSerializer(serializers.ModelSerializer):
             'instances',
         ]
 
-        extra_kwargs = {'password': {'write_only': True}}
+        extra_kwargs = {
+            'id': {'read_only': True},
+            'password': {'write_only': True}
+        }
 
     def get_schools(self, obj):
         return obj.get_schools()

@@ -13,9 +13,7 @@ router.register(r'students', StudentViewSet, basename='students')
 router.register(
     r'(?P<student_id>\d+)/classes', StudentClassesViewSet, basename='student_classes',
 )
-router.register(
-    r'(?P<student_id>\d+)/status', StudentStatusViewSet, basename='student_status',
-)
+router.register(r'status', StudentStatusViewSet, basename='student_status')
 router.register(
     r'(?P<student_id>\d+)/history', HistoryViewSet, basename='student_history',
 )

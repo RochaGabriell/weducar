@@ -19,6 +19,10 @@ class StudentViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         queryset = super().get_queryset()
 
+        # Verifica se estamos gerando o esquema da API
+        if getattr(self, 'swagger_fake_view', False):
+            return queryset
+
         instance_id = self.request.query_params.get('id_instancia')
         if not instance_id:
             raise ValidationError(
@@ -96,10 +100,12 @@ class StudentViewSet(viewsets.ModelViewSet):
                     )
                 )
 
-        if order == 'A-Z':
-            queryset = queryset.order_by('name')
-        elif order == 'Z-A':
-            queryset = queryset.order_by('-name')
+        # Define uma ordem padrão
+        if not queryset.query.order_by:
+            if order == 'Z-A':
+                queryset = queryset.order_by('-name')
+            else:
+                queryset = queryset.order_by('name')
 
         if initial_row is not None and final_row is not None:
             try:

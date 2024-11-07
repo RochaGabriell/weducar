@@ -21,7 +21,7 @@ class Instance(models.Model):
         max_length=45, verbose_name='CEP', db_column='cep'
     )
     tax_id = models.CharField(
-        max_length=45, verbose_name='CNPJ', db_column='cnpj'
+        max_length=45, verbose_name='CNPJ', db_column='cnpj', unique=True
     )
 
     def to_dict(self):

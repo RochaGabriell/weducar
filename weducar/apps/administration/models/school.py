@@ -28,10 +28,10 @@ class School(models.Model):
         max_length=45, verbose_name='CEP', db_column='cep'
     )
     tax_id = models.CharField(
-        max_length=45, verbose_name='CNPJ', db_column='cnpj'
+        max_length=45, verbose_name='CNPJ', db_column='cnpj', unique=True
     )
     inep_code = models.CharField(
-        max_length=45, verbose_name='Código INEP', db_column='inep'
+        max_length=45, verbose_name='Código INEP', db_column='inep', unique=True
     )
     logo = models.TextField(
         verbose_name='Logotipo'

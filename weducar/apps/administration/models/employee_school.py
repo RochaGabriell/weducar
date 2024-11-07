@@ -34,7 +34,7 @@ class EmployeeSchool(models.Model):
     )
 
     def __str__(self):
-        return f'{self.employee_id.name} - {self.school_id.corporate_name} - {self.school_id.instance_id.name}'
+        return f'{self.employee_id.name} - {self.school_id.corporate_name} - {self.school_id.instance.name}'
 
     class Meta:
         db_table = 'funcionarios_escolas'

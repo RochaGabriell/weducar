@@ -11,3 +11,9 @@ class InstanceViewSet(viewsets.ModelViewSet):
     serializer_class = InstanceSerializer
     permission_classes = [permissions.IsAuthenticated]
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+
+    
+    # def get_queryset(self):
+    #     queryset = super().get_queryset()
+        
+    #     return queryset
